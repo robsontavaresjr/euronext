@@ -1,0 +1,709 @@
+1541795479618	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.syiveusRsXrV"
+1541795490385	Marionette	INFO	Listening on port 51924
+1541795490518	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541795557099	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.8GmvFKSOtRY9"
+1541795565351	Marionette	INFO	Listening on port 52356
+1541795565422	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541795602853	Marionette	INFO	Stopped listening on port 51924
+console.error: (new TypeError("currentPanel is undefined", "resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js", 2830))
+console.error: (new TypeError("toolbox.target is null", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/css-properties.js", 260))
+console.error: (new TypeError("this.win is null", "resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/views/markup-container.js", 58))
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: win is null
+Full stack: scrollIntoViewIfNeeded@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/scroll.js:32:11
+showNode/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:1222:7
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11
+
+*************************
+console.error: (new TypeError("win is null", "resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/scroll.js", 32))
+console.error: (new Error("Connection closed, pending request to server1.conn1.child1/pagestyle31, type getComputed failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nrefreshPanel@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:482:7\nrefresh@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1497:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nonMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:83:9\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn1.child1/pagestyle31, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nPageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:82:23\npopulate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:87:23\n_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:960:12\nselectElement/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:875:16\nprocess@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23\nwalkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29\nscheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn1.child1/pagestyle31, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nPageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:82:23\npopulate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:87:23\n_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:960:12\nrefreshPanel/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:915:14\nprocess@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23\nwalkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29\nscheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn1.child1/pagestyle31, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nPageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:82:23\npopulate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:87:23\n_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:960:12\nselectElement/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:875:16\nprocess@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23\nwalkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29\nscheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn1.child1/pagestyle31, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nPageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:82:23\npopulate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:87:23\n_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:960:12\nrefreshPanel/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:915:14\nprocess@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23\nwalkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29\nscheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn1.child1/pagestyle31, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nPageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:82:23\npopulate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:87:23\n_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:960:12\nselectElement/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:875:16\nprocess@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23\nwalkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29\nscheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "this.pageStyle is null"
+console.error: "getAuthoredCssText@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:1280:1\ngetApplied@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:491:13\n"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js, line 105: TypeError: this.inspector is null
+console.error: (new TypeError("currentPanel is undefined", "resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js", 2830))
+console.error: (new Error("Connection closed, pending request to server1.conn3.child1/pagestyle31, type getComputed failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nrefreshPanel@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:482:7\nrefresh@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1497:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nonMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:83:9\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn3.child1/pagestyle31, type getComputed failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nrefreshPanel@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:482:7\nrefresh@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1497:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nonResized@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:94:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1386:7\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/shared/client/debugger-client.js:783:7\nsend/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/local-transport.js:64:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn3.child1/pagestyle31, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nPageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:82:23\npopulate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:87:23\n_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:960:12\nrefreshPanel/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:915:14\nprocess@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23\nwalkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29\nscheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn3.child1/pagestyle31, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nPageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:82:23\npopulate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:87:23\n_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:960:12\nrefreshPanel/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:915:14\nprocess@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23\nwalkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29\nscheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn3.child1/pagestyle31, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nPageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:82:23\npopulate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:87:23\n_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:960:12\nrefreshPanel/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:915:14\nprocess@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23\nwalkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29\nscheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+console.error: (new Error("Connection closed, pending request to server1.conn3.child1/pagestyle31, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14\nPageStyleFront<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/styles.js:82:23\npopulate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/models/element-style.js:87:23\n_populate@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:960:12\nrefreshPanel/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js:915:14\nprocess@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23\nwalkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29\nscheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11\n", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js", 1294))
+1541795861982	Marionette	INFO	Stopped listening on port 52356
+1541795888971	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.CE3FtwXYOzdx"
+1541795898444	Marionette	INFO	Listening on port 53807
+1541795898579	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541795957997	Marionette	INFO	Stopped listening on port 53807
+1541796003883	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.WaM6jk6YDxtZ"
+1541796010969	Marionette	INFO	Listening on port 54421
+1541796011026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541796086868	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.O8M2b6DcQMph"
+1541796091877	Marionette	INFO	Stopped listening on port 54421
+1541796095789	Marionette	INFO	Listening on port 54857
+1541796095879	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541796146927	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.2yEwEvdjulRd"
+1541796155356	Marionette	INFO	Listening on port 55222
+1541796155445	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541796269436	Marionette	INFO	Stopped listening on port 55222
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1541796450062	Marionette	INFO	Stopped listening on port 54857
+1541796454937	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.PC3OHL2VwOjo"
+1541796462579	Marionette	INFO	Listening on port 56649
+1541796462773	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541796511767	Marionette	INFO	Stopped listening on port 56649
+1541796517055	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.eZuvc6TYMCks"
+1541796524832	Marionette	INFO	Listening on port 57015
+1541796524970	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541796596435	Marionette	INFO	Stopped listening on port 57015
+1541796602982	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.kf5PDehRE9iy"
+1541796610726	Marionette	INFO	Listening on port 57477
+1541796610795	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541796673993	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.10jo999I5bI5"
+1541796684501	Marionette	INFO	Listening on port 57883
+1541796684604	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541796755897	Marionette	INFO	Stopped listening on port 57477
+1541796759859	Marionette	INFO	Stopped listening on port 57883
+1541796779905	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.My2eHK8Jgp3q"
+1541796787646	Marionette	INFO	Listening on port 58457
+1541796787751	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541797219511	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.t7YPLPUhDKsQ"
+1541797226739	Marionette	INFO	Listening on port 60380
+1541797226869	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541797340615	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.fTM0BFvHHUsY"
+1541797349491	Marionette	INFO	Listening on port 61010
+1541797349605	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541797392848	Marionette	INFO	Stopped listening on port 60380
+1541797396981	Marionette	INFO	Stopped listening on port 61010
+1541797402416	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.IfI2YwK2GJIu"
+1541797409578	Marionette	INFO	Listening on port 61372
+1541797409668	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541797704621	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.1QRLnWbSLl4Z"
+1541797712949	Marionette	INFO	Listening on port 62716
+1541797713015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1541797791662	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.vqWcU794PGRu"
+1541797798811	Marionette	INFO	Listening on port 63188
+1541797798865	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541797880309	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.WWXQYC1wiiZf"
+1541797890394	Marionette	INFO	Listening on port 63656
+1541797890589	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541798132223	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.2aG7z7D0cvK2"
+2018-11-09 21:15:39.084 firefox-bin[35585:403489] IMKClient Stall detected, *please Report* your user scenario attaching a spindump (or sysdiagnose) that captures the problem - (imkxpc_bundleIdentifierWithReply:) block performed very slowly (2.42 secs).
+1541798152957	Marionette	INFO	Listening on port 64822
+1541798153168	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541798235835	Marionette	INFO	Stopped listening on port 61372
+1541798242143	Marionette	INFO	Stopped listening on port 63188
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1541798245455	Marionette	INFO	Stopped listening on port 63656
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1541798249698	Marionette	INFO	Stopped listening on port 64822
+1541798442208	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-devtools" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.zdRVCgih0NYB"
+1541798442211	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:49937
+1541798444540	Marionette	DEBUG	Received observer notification profile-after-change
+1541798444865	Marionette	DEBUG	Received observer notification command-line-startup
+1541798444866	Marionette	DEBUG	Received observer notification nsPref:changed
+1541798444866	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1541798445294	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541798448908	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1541798448908	Marionette	DEBUG	Waiting for delayed startup...
+1541798450951	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1541798450952	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1541798450953	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1541798450954	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1541798450958	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1541798450959	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1541798450959	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1541798450960	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1541798450960	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1541798450962	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1541798450963	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1541798450964	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1541798450964	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1541798450965	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1541798450966	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1541798450967	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1541798450967	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1541798450968	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1541798450968	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1541798450969	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1541798450969	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1541798450970	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1541798450970	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541798450971	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541798450971	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541798451133	Marionette	INFO	Listening on port 49937
+1541798451134	Marionette	DEBUG	Remote service is active
+1541798451242	geckodriver::marionette	DEBUG	Connection established on 127.0.0.1:49937. Waiting for Marionette handshake
+1541798451254	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50064
+1541798451267	geckodriver::marionette	DEBUG	Connected to Marionette
+1541798451705	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541798451706	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541798451872	Marionette	DEBUG	[4294967297] Frame script loaded
+1541798451926	Marionette	DEBUG	[4294967297] Frame script registered
+1541798451997	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"d375871c-0cf5-de4c-966c-10a56be06549","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... dzjng_2cl0nrh0000gn/T/rust_mozprofile.zdRVCgih0NYB","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541798452091	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"d375871c-0cf5-de4c-966c-10a56be06549","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"63.0.1","moz:accessibilityChecks":false,"moz:geckodriverVersion":"0.23.0","moz:headless":false,"moz:processID":35654,"moz:profile":"/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.zdRVCgih0NYB","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"mac","platformVersion":"16.4.0","rotatable":false,"setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1541798452108	webdriver::server	DEBUG	-> POST /session/d375871c-0cf5-de4c-966c-10a56be06549/timeouts {"implicit": 5000}
+1541798452157	Marionette	TRACE	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":5000}]
+1541798452159	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1541798452170	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541798452181	webdriver::server	DEBUG	-> POST /session/d375871c-0cf5-de4c-966c-10a56be06549/url {"url": "https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}
+1541798452189	Marionette	TRACE	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}]
+1541798452342	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+console.error: "Error while calling actor 'pagestyle's method 'getComputed'" "node is null"
+console.error: "getComputed@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:227:5\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1178:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1721:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:66:5\n"
+console.error: (new TypeError("this.markup is null", "resource://devtools/client/inspector/inspector.js", 322))
+console.error: "Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/domnode32"
+console.error: "Protocol error (unknownError): node is null"
+1541798453527	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541798456057	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+1541798463367	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+1541798463691	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1541798463777	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541798463786	webdriver::server	DEBUG	-> POST /session/d375871c-0cf5-de4c-966c-10a56be06549/element {"using": "css selector", "value": "body"}
+1541798463877	Marionette	TRACE	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"body"}]
+1541798464395	Marionette	TRACE	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6ec86859-b13f-1247-803c-c0076d310892"}}]
+1541798464552	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"6ec86859-b13f-1247-803c-c0076d310892"}}
+1541798464559	webdriver::server	DEBUG	-> POST /session/d375871c-0cf5-de4c-966c-10a56be06549/element/6ec86859-b13f-1247-803c-c0076d310892/value {"text": "\ue03d\ue00ak", "value": ["\ue03d", "\ue00a", "k"], "id": "6ec86859-b13f-1247-803c-c0076d310892"}
+1541798464760	Marionette	TRACE	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"6ec86859-b13f-1247-803c-c0076d310892","text":"k","value":["","","k"]}]
+1541798469610	Marionette	TRACE	0 <- [1,5,null,{"value":null}]
+1541798469614	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541798469620	webdriver::server	DEBUG	-> POST /session/d375871c-0cf5-de4c-966c-10a56be06549/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue03c"}, {"type": "keyUp", "value": "\ue03c"}]}]}
+1541798469623	Marionette	TRACE	0 -> [0,6,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":0,"type":"pause"},{"duration":0,"type":"pause"}],"id":"mo ... ouse"},"type":"pointer"},{"actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}],"id":"key","type":"key"}]}]
+1541798470374	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1541798470375	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541798480570	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/devtools.js, line 707: TypeError: inspector is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/devtools.js, line 707: TypeError: inspector is undefined
+console.error: (new TypeError("currentPanel is undefined", "resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js", 2830))
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1541799331517	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541799331518	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541799331519	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541799331519	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541799331520	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541799331521	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541799331521	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541799331523	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541799331524	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541799331526	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541799331528	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541799331529	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541799331531	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541799331532	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541799331533	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541799331533	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541799331534	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541799331534	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541799331536	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541799331536	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541799331537	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541799331537	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541799331537	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541799331537	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541799331538	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541799331538	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541799331541	Marionette	INFO	Stopped listening on port 49937
+1541799331541	Marionette	DEBUG	Remote service is inactive
+1541799355972	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-devtools" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.unB8Q9XZLSMa"
+1541799355974	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:53794
+1541799358408	Marionette	DEBUG	Received observer notification profile-after-change
+1541799358709	Marionette	DEBUG	Received observer notification command-line-startup
+1541799358709	Marionette	DEBUG	Received observer notification nsPref:changed
+1541799358710	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1541799359373	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541799363195	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1541799363196	Marionette	DEBUG	Waiting for delayed startup...
+1541799365602	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1541799365603	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1541799365603	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1541799365605	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1541799365608	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1541799365609	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1541799365612	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1541799365612	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1541799365613	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1541799365615	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1541799365615	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1541799365617	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1541799365617	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1541799365618	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1541799365619	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1541799365619	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1541799365620	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1541799365621	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1541799365621	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1541799365622	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1541799365622	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1541799365623	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1541799365623	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541799365624	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541799365624	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541799365822	Marionette	INFO	Listening on port 53794
+1541799365822	Marionette	DEBUG	Remote service is active
+1541799365834	geckodriver::marionette	DEBUG	Connection established on 127.0.0.1:53794. Waiting for Marionette handshake
+1541799365848	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53934
+1541799365867	geckodriver::marionette	DEBUG	Connected to Marionette
+1541799365899	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541799365903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541799366101	Marionette	DEBUG	[4294967297] Frame script loaded
+1541799366367	Marionette	DEBUG	[4294967297] Frame script registered
+1541799366485	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"02e60298-9324-f24e-8e67-39af36712171","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... dzjng_2cl0nrh0000gn/T/rust_mozprofile.unB8Q9XZLSMa","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541799366562	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"02e60298-9324-f24e-8e67-39af36712171","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"63.0.1","moz:accessibilityChecks":false,"moz:geckodriverVersion":"0.23.0","moz:headless":false,"moz:processID":35828,"moz:profile":"/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.unB8Q9XZLSMa","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"mac","platformVersion":"16.4.0","rotatable":false,"setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1541799366579	webdriver::server	DEBUG	-> POST /session/02e60298-9324-f24e-8e67-39af36712171/timeouts {"implicit": 5000}
+1541799366702	Marionette	TRACE	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":5000}]
+1541799366703	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1541799366768	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541799366776	webdriver::server	DEBUG	-> POST /session/02e60298-9324-f24e-8e67-39af36712171/url {"url": "https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}
+1541799366855	Marionette	TRACE	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}]
+1541799366935	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1541799367823	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541799370579	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1695:11
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/local-transport.js:64:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1695, column: 11
+console.error: "Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null\nStack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1695:11\nsend/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/local-transport.js:64:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1695, column: 11"
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1541799380104	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+1541799380383	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1541799380959	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541799380974	webdriver::server	DEBUG	-> POST /session/02e60298-9324-f24e-8e67-39af36712171/element {"using": "css selector", "value": "[id=\"tablesNavigation_hi\"]"}
+1541799381431	Marionette	TRACE	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"tablesNavigation_hi\"]"}]
+1541799381631	Marionette	TRACE	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4fd546b3-22fc-cd47-9b9e-0c3839a16d68"}}]
+1541799381746	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"4fd546b3-22fc-cd47-9b9e-0c3839a16d68"}}
+1541799381778	webdriver::server	DEBUG	-> POST /session/02e60298-9324-f24e-8e67-39af36712171/element/4fd546b3-22fc-cd47-9b9e-0c3839a16d68/value {"text": "\ue007", "value": ["\ue007"], "id": "4fd546b3-22fc-cd47-9b9e-0c3839a16d68"}
+1541799381820	Marionette	TRACE	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"4fd546b3-22fc-cd47-9b9e-0c3839a16d68","text":"","value":[""]}]
+1541799386549	Marionette	TRACE	0 <- [1,5,{"error":"element not interactable","message":"Element <a id=\"tablesNavigation_hi\" class=\"sub-active\" href=\"#\"> is ... ch/</req<@chrome://marionette/content/listener.js:482:14\ndispatch/<@chrome://marionette/content/listener.js:477:15\n"},null]
+1541799386554	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"element not interactable","message":"Element <a id=\"tablesNavigation_hi\" class=\"sub-active\" href=\"#\"> is not reachable by keyboard","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178:5\nElementNotInteractableError@chrome://marionette/content/error.js:286:5\nwebdriverSendKeysToElement@chrome://marionette/content/interaction.js:566:11\ninteraction.sendKeysToElement@chrome://marionette/content/interaction.js:553:11\nsendKeysToElement@chrome://marionette/content/listener.js:1307:9\ndispatch/</req<@chrome://marionette/content/listener.js:482:14\ndispatch/<@chrome://marionette/content/listener.js:477:15\n"}}
+1541799387331	Marionette	DEBUG	Closed connection 0
+1541799470166	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-devtools" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.CZ7DVx6k4VVo"
+1541799470169	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:54395
+1541799473681	Marionette	DEBUG	Received observer notification profile-after-change
+1541799474060	Marionette	DEBUG	Received observer notification command-line-startup
+1541799474060	Marionette	DEBUG	Received observer notification nsPref:changed
+1541799474061	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1541799474735	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541799480365	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1541799480367	Marionette	DEBUG	Waiting for delayed startup...
+1541799490842	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1541799490846	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1541799490848	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1541799490849	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1541799490852	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1541799490853	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1541799490854	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1541799490854	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1541799490855	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1541799490855	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1541799490857	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1541799490879	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1541799490879	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1541799490881	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1541799490882	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1541799490883	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1541799490885	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1541799490888	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1541799490889	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1541799490890	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1541799490891	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1541799490892	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1541799490893	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541799490893	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541799490894	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541799491573	Marionette	INFO	Listening on port 54395
+1541799491574	Marionette	DEBUG	Remote service is active
+1541799491581	geckodriver::marionette	DEBUG	Connection established on 127.0.0.1:54395. Waiting for Marionette handshake
+1541799491713	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:54697
+1541799491843	geckodriver::marionette	DEBUG	Connected to Marionette
+1541799491917	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541799491919	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541799492140	Marionette	DEBUG	[4294967297] Frame script loaded
+1541799492223	Marionette	DEBUG	[4294967297] Frame script registered
+1541799492312	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"94e3139f-d9d1-5746-925a-7bf020d2576f","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... dzjng_2cl0nrh0000gn/T/rust_mozprofile.CZ7DVx6k4VVo","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541799492347	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"94e3139f-d9d1-5746-925a-7bf020d2576f","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"63.0.1","moz:accessibilityChecks":false,"moz:geckodriverVersion":"0.23.0","moz:headless":false,"moz:processID":35858,"moz:profile":"/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.CZ7DVx6k4VVo","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"mac","platformVersion":"16.4.0","rotatable":false,"setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1541799492411	webdriver::server	DEBUG	-> POST /session/94e3139f-d9d1-5746-925a-7bf020d2576f/timeouts {"implicit": 5000}
+1541799492487	Marionette	TRACE	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":5000}]
+1541799492544	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1541799492603	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541799492612	webdriver::server	DEBUG	-> POST /session/94e3139f-d9d1-5746-925a-7bf020d2576f/url {"url": "https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}
+1541799492636	Marionette	TRACE	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}]
+1541799492683	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1541799494115	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541799499211	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+1541799508532	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+1541799509109	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1541799509762	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541799509799	webdriver::server	DEBUG	-> POST /session/94e3139f-d9d1-5746-925a-7bf020d2576f/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "d"}, {"type": "keyUp", "value": "d"}, {"type": "keyDown", "value": "o"}, {"type": "keyUp", "value": "o"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "u"}, {"type": "keyUp", "value": "u"}, {"type": "keyDown", "value": "m"}, {"type": "keyUp", "value": "m"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "n"}, {"type": "keyUp", "value": "n"}, {"type": "keyDown", "value": "t"}, {"type": "keyUp", "value": "t"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "q"}, {"type": "keyUp", "value": "q"}, {"type": "keyDown", "value": "u"}, {"type": "keyUp", "value": "u"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "r"}, {"type": "keyUp", "value": "r"}, {"type": "keyDown", "value": "y"}, {"type": "keyUp", "value": "y"}, {"type": "keyDown", "value": "S"}, {"type": "keyUp", "value": "S"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "t"}, {"type": "keyUp", "value": "t"}, {"type": "keyDown", "value": "o"}, {"type": "keyUp", "value": "o"}, {"type": "keyDown", "value": "r"}, {"type": "keyUp", "value": "r"}, {"type": "keyDown", "value": "A"}, {"type": "keyUp", "value": "A"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "("}, {"type": "keyUp", "value": "("}, {"type": "keyDown", "value": "'"}, {"type": "keyUp", "value": "'"}, {"type": "keyDown", "value": "a"}, {"type": "keyUp", "value": "a"}, {"type": "keyDown", "value": "#"}, {"type": "keyUp", "value": "#"}, {"type": "keyDown", "value": "p"}, {"type": "keyUp", "value": "p"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "C"}, {"type": "keyUp", "value": "C"}, {"type": "keyDown", "value": "o"}, {"type": "keyUp", "value": "o"}, {"type": "keyDown", "value": "n"}, {"type": "keyUp", "value": "n"}, {"type": "keyDown", "value": "t"}, {"type": "keyUp", "value": "t"}, {"type": "keyDown", "value": "a"}, {"type": "keyUp", "value": "a"}, {"type": "keyDown", "value": "i"}, {"type": "keyUp", "value": "i"}, {"type": "keyDown", "value": "n"}, {"type": "keyUp", "value": "n"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "r"}, {"type": "keyUp", "value": "r"}, {"type": "keyDown", "value": "_"}, {"type": "keyUp", "value": "_"}, {"type": "keyDown", "value": "d"}, {"type": "keyUp", "value": "d"}, {"type": "keyDown", "value": "a"}, {"type": "keyUp", "value": "a"}, {"type": "keyDown", "value": "'"}, {"type": "keyUp", "value": "'"}, {"type": "keyDown", "value": ")"}, {"type": "keyUp", "value": ")"}, {"type": "keyDown", "value": "["}, {"type": "keyUp", "value": "["}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "]"}, {"type": "keyUp", "value": "]"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "i"}, {"type": "keyUp", "value": "i"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "k"}, {"type": "keyUp", "value": "k"}, {"type": "keyDown", "value": "("}, {"type": "keyUp", "value": "("}, {"type": "keyDown", "value": ")"}, {"type": "keyUp", "value": ")"}]}]}
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1695:11
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/local-transport.js:64:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1695, column: 11
+console.error: "Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null\nStack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1695:11\nsend/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/local-transport.js:64:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1695, column: 11"
+1541799513285	Marionette	TRACE	0 -> [0,4,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":0,"type":"pause"},{"duration":0,"type":"pause"},{"duratio ... e":"("},{"type":"keyUp","value":"("},{"type":"keyDown","value":")"},{"type":"keyUp","value":")"}],"id":"key","type":"key"}]}]
+1541799533690	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1541799533694	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541799533719	webdriver::server	DEBUG	-> POST /session/94e3139f-d9d1-5746-925a-7bf020d2576f/element {"using": "css selector", "value": "[id=\"tablesNavigation_hi\"]"}
+1541799533759	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"tablesNavigation_hi\"]"}]
+1541799533807	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"602c37f7-fbd7-0d4a-baff-164f3f17a3ed"}}]
+1541799533811	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"602c37f7-fbd7-0d4a-baff-164f3f17a3ed"}}
+1541799533816	webdriver::server	DEBUG	-> POST /session/94e3139f-d9d1-5746-925a-7bf020d2576f/element/602c37f7-fbd7-0d4a-baff-164f3f17a3ed/value {"text": "\ue007", "value": ["\ue007"], "id": "602c37f7-fbd7-0d4a-baff-164f3f17a3ed"}
+1541799533825	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"602c37f7-fbd7-0d4a-baff-164f3f17a3ed","text":"","value":[""]}]
+1541799533937	Marionette	TRACE	0 <- [1,6,{"error":"element not interactable","message":"Element <a id=\"tablesNavigation_hi\" class=\"sub-active\" href=\"#\"> is ... ch/</req<@chrome://marionette/content/listener.js:482:14\ndispatch/<@chrome://marionette/content/listener.js:477:15\n"},null]
+1541799533942	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"element not interactable","message":"Element <a id=\"tablesNavigation_hi\" class=\"sub-active\" href=\"#\"> is not reachable by keyboard","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178:5\nElementNotInteractableError@chrome://marionette/content/error.js:286:5\nwebdriverSendKeysToElement@chrome://marionette/content/interaction.js:566:11\ninteraction.sendKeysToElement@chrome://marionette/content/interaction.js:553:11\nsendKeysToElement@chrome://marionette/content/listener.js:1307:9\ndispatch/</req<@chrome://marionette/content/listener.js:482:14\ndispatch/<@chrome://marionette/content/listener.js:477:15\n"}}
+1541799535003	Marionette	DEBUG	Closed connection 0
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1541799749233	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541799749235	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541799749236	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541799749237	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541799749238	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541799749238	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541799749239	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541799749242	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541799749243	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541799749244	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541799749246	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541799749247	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541799749250	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541799749250	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541799749251	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541799749252	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541799749252	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541799749253	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541799749255	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541799749256	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541799749257	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541799749257	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541799749257	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541799749258	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541799749258	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541799749259	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541799749260	Marionette	INFO	Stopped listening on port 54395
+1541799749261	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1541799753888	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541799753888	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541799753889	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541799753890	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541799753890	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541799753891	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541799753892	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541799753895	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541799753896	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541799753897	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541799753899	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541799753900	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541799753903	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541799753903	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541799753904	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541799753904	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541799753904	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541799753905	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541799753907	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541799753908	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541799753910	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541799753910	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541799753911	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541799753911	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541799753912	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541799753913	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541799753916	Marionette	INFO	Stopped listening on port 53794
+1541799753917	Marionette	DEBUG	Remote service is inactive
+1541799869569	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-devtools" "-console" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.8CgBSbX3oxZc"
+1541799869571	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:56274
+1541799872364	Marionette	DEBUG	Received observer notification profile-after-change
+1541799872753	Marionette	DEBUG	Received observer notification command-line-startup
+1541799872754	Marionette	DEBUG	Received observer notification nsPref:changed
+1541799872754	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1541799873370	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541799879176	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1541799879177	Marionette	DEBUG	Waiting for delayed startup...
+1541799883125	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1541799883126	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1541799883128	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1541799883129	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1541799883132	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1541799883133	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1541799883134	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1541799883135	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1541799883136	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1541799883137	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1541799883140	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1541799883143	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1541799883144	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1541799883146	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1541799883146	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1541799883147	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1541799883148	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1541799883148	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1541799883149	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1541799883149	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1541799883150	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1541799883150	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1541799883151	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541799883151	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541799883152	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541799883387	Marionette	INFO	Listening on port 56274
+1541799883388	Marionette	DEBUG	Remote service is active
+1541799883469	geckodriver::marionette	DEBUG	Connection established on 127.0.0.1:56274. Waiting for Marionette handshake
+1541799883479	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56468
+1541799883483	geckodriver::marionette	DEBUG	Connected to Marionette
+1541799883531	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541799883535	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541799883741	Marionette	DEBUG	[4294967297] Frame script loaded
+1541799884194	Marionette	DEBUG	[4294967297] Frame script registered
+1541799884324	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"4ec04504-bbfc-6b40-8e24-9e74f1621f9e","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... dzjng_2cl0nrh0000gn/T/rust_mozprofile.8CgBSbX3oxZc","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541799884466	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"4ec04504-bbfc-6b40-8e24-9e74f1621f9e","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"63.0.1","moz:accessibilityChecks":false,"moz:geckodriverVersion":"0.23.0","moz:headless":false,"moz:processID":35950,"moz:profile":"/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.8CgBSbX3oxZc","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"mac","platformVersion":"16.4.0","rotatable":false,"setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1541799884477	webdriver::server	DEBUG	-> POST /session/4ec04504-bbfc-6b40-8e24-9e74f1621f9e/timeouts {"implicit": 5000}
+1541799884628	Marionette	TRACE	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":5000}]
+1541799884631	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1541799884750	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541799884758	webdriver::server	DEBUG	-> POST /session/4ec04504-bbfc-6b40-8e24-9e74f1621f9e/url {"url": "https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}
+1541799884950	Marionette	TRACE	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}]
+1541799885103	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1541799887107	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541799891075	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1695:11
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/local-transport.js:64:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1695, column: 11
+console.error: "Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null\nStack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1695:11\nsend/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/local-transport.js:64:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1695, column: 11"
+1541799900976	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+1541799901199	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1541799901442	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541799901465	webdriver::server	DEBUG	-> POST /session/4ec04504-bbfc-6b40-8e24-9e74f1621f9e/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "d"}, {"type": "keyUp", "value": "d"}, {"type": "keyDown", "value": "o"}, {"type": "keyUp", "value": "o"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "u"}, {"type": "keyUp", "value": "u"}, {"type": "keyDown", "value": "m"}, {"type": "keyUp", "value": "m"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "n"}, {"type": "keyUp", "value": "n"}, {"type": "keyDown", "value": "t"}, {"type": "keyUp", "value": "t"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "q"}, {"type": "keyUp", "value": "q"}, {"type": "keyDown", "value": "u"}, {"type": "keyUp", "value": "u"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "r"}, {"type": "keyUp", "value": "r"}, {"type": "keyDown", "value": "y"}, {"type": "keyUp", "value": "y"}, {"type": "keyDown", "value": "S"}, {"type": "keyUp", "value": "S"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "t"}, {"type": "keyUp", "value": "t"}, {"type": "keyDown", "value": "o"}, {"type": "keyUp", "value": "o"}, {"type": "keyDown", "value": "r"}, {"type": "keyUp", "value": "r"}, {"type": "keyDown", "value": "A"}, {"type": "keyUp", "value": "A"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "("}, {"type": "keyUp", "value": "("}, {"type": "keyDown", "value": "'"}, {"type": "keyUp", "value": "'"}, {"type": "keyDown", "value": "a"}, {"type": "keyUp", "value": "a"}, {"type": "keyDown", "value": "#"}, {"type": "keyUp", "value": "#"}, {"type": "keyDown", "value": "p"}, {"type": "keyUp", "value": "p"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "C"}, {"type": "keyUp", "value": "C"}, {"type": "keyDown", "value": "o"}, {"type": "keyUp", "value": "o"}, {"type": "keyDown", "value": "n"}, {"type": "keyUp", "value": "n"}, {"type": "keyDown", "value": "t"}, {"type": "keyUp", "value": "t"}, {"type": "keyDown", "value": "a"}, {"type": "keyUp", "value": "a"}, {"type": "keyDown", "value": "i"}, {"type": "keyUp", "value": "i"}, {"type": "keyDown", "value": "n"}, {"type": "keyUp", "value": "n"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "r"}, {"type": "keyUp", "value": "r"}, {"type": "keyDown", "value": "_"}, {"type": "keyUp", "value": "_"}, {"type": "keyDown", "value": "d"}, {"type": "keyUp", "value": "d"}, {"type": "keyDown", "value": "a"}, {"type": "keyUp", "value": "a"}, {"type": "keyDown", "value": "'"}, {"type": "keyUp", "value": "'"}, {"type": "keyDown", "value": ")"}, {"type": "keyUp", "value": ")"}, {"type": "keyDown", "value": "["}, {"type": "keyUp", "value": "["}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "]"}, {"type": "keyUp", "value": "]"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "i"}, {"type": "keyUp", "value": "i"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "k"}, {"type": "keyUp", "value": "k"}, {"type": "keyDown", "value": "("}, {"type": "keyUp", "value": "("}, {"type": "keyDown", "value": ")"}, {"type": "keyUp", "value": ")"}]}]}
+1541799901871	Marionette	TRACE	0 -> [0,4,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":0,"type":"pause"},{"duration":0,"type":"pause"},{"duratio ... e":"("},{"type":"keyUp","value":"("},{"type":"keyDown","value":")"},{"type":"keyUp","value":")"}],"id":"key","type":"key"}]}]
+1541799914034	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1541799914039	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541799914045	webdriver::server	DEBUG	-> POST /session/4ec04504-bbfc-6b40-8e24-9e74f1621f9e/element {"using": "css selector", "value": "[id=\"tablesNavigation_hi\"]"}
+1541799914049	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"tablesNavigation_hi\"]"}]
+1541799914088	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f0d41e89-87c8-794a-83a3-07d0f42ec61e"}}]
+1541799914090	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"f0d41e89-87c8-794a-83a3-07d0f42ec61e"}}
+1541799914095	webdriver::server	DEBUG	-> POST /session/4ec04504-bbfc-6b40-8e24-9e74f1621f9e/element/f0d41e89-87c8-794a-83a3-07d0f42ec61e/value {"text": "\ue007", "value": ["\ue007"], "id": "f0d41e89-87c8-794a-83a3-07d0f42ec61e"}
+1541799914106	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"f0d41e89-87c8-794a-83a3-07d0f42ec61e","text":"","value":[""]}]
+1541799914163	Marionette	TRACE	0 <- [1,6,{"error":"element not interactable","message":"Element <a id=\"tablesNavigation_hi\" class=\"sub-active\" href=\"#\"> is ... ch/</req<@chrome://marionette/content/listener.js:482:14\ndispatch/<@chrome://marionette/content/listener.js:477:15\n"},null]
+1541799914165	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"element not interactable","message":"Element <a id=\"tablesNavigation_hi\" class=\"sub-active\" href=\"#\"> is not reachable by keyboard","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178:5\nElementNotInteractableError@chrome://marionette/content/error.js:286:5\nwebdriverSendKeysToElement@chrome://marionette/content/interaction.js:566:11\ninteraction.sendKeysToElement@chrome://marionette/content/interaction.js:553:11\nsendKeysToElement@chrome://marionette/content/listener.js:1307:9\ndispatch/</req<@chrome://marionette/content/listener.js:482:14\ndispatch/<@chrome://marionette/content/listener.js:477:15\n"}}
+1541799914713	Marionette	DEBUG	Closed connection 0
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1541800009056	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541800009056	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541800009056	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541800009057	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541800009057	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541800009057	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541800009057	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541800009059	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541800009060	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541800009061	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541800009062	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541800009062	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541800009064	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541800009064	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541800009065	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541800009065	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541800009065	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541800009066	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541800009067	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541800009068	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541800009068	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541800009068	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541800009069	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541800009069	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541800009069	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541800009070	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541800009070	Marionette	INFO	Stopped listening on port 56274
+1541800009070	Marionette	DEBUG	Remote service is inactive
+1541800057001	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-devtools" "-console" "-foreground" "-no-remote" "-profile" "/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.UgftWluw6Cug"
+1541800057004	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:57212
+1541800059388	Marionette	DEBUG	Received observer notification profile-after-change
+1541800059694	Marionette	DEBUG	Received observer notification command-line-startup
+1541800059694	Marionette	DEBUG	Received observer notification nsPref:changed
+1541800059695	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1541800060161	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1541800063599	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1541800063600	Marionette	DEBUG	Waiting for delayed startup...
+1541800065471	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1541800065471	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1541800065472	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1541800065474	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1541800065477	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1541800065477	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1541800065478	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1541800065478	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1541800065479	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1541800065480	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1541800065481	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1541800065482	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1541800065483	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1541800065484	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1541800065484	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1541800065485	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1541800065485	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1541800065486	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1541800065486	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1541800065487	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1541800065487	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1541800065488	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1541800065489	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1541800065489	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1541800065490	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1541800065631	Marionette	INFO	Listening on port 57212
+1541800065632	Marionette	DEBUG	Remote service is active
+1541800065710	geckodriver::marionette	DEBUG	Connection established on 127.0.0.1:57212. Waiting for Marionette handshake
+1541800065853	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:57335
+1541800065870	geckodriver::marionette	DEBUG	Connected to Marionette
+1541800065923	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1541800065924	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541800066166	Marionette	DEBUG	[4294967297] Frame script loaded
+1541800066169	Marionette	DEBUG	[4294967297] Frame script registered
+1541800066193	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"d3d51204-104f-4e46-92c6-a50cd9134c28","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... dzjng_2cl0nrh0000gn/T/rust_mozprofile.UgftWluw6Cug","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1541800066208	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"d3d51204-104f-4e46-92c6-a50cd9134c28","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"63.0.1","moz:accessibilityChecks":false,"moz:geckodriverVersion":"0.23.0","moz:headless":false,"moz:processID":35995,"moz:profile":"/var/folders/tw/r6fttptn5qbdzjng_2cl0nrh0000gn/T/rust_mozprofile.UgftWluw6Cug","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"mac","platformVersion":"16.4.0","rotatable":false,"setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1541800066218	webdriver::server	DEBUG	-> POST /session/d3d51204-104f-4e46-92c6-a50cd9134c28/timeouts {"implicit": 5000}
+1541800066280	Marionette	TRACE	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":5000}]
+1541800066284	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1541800066302	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541800066310	webdriver::server	DEBUG	-> POST /session/d3d51204-104f-4e46-92c6-a50cd9134c28/url {"url": "https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}
+1541800066343	Marionette	TRACE	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes"}]
+1541800066706	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1541800067472	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+JavaScript warning: https://www.bolsadelisboa.com.pt/sites/euconsumer.euronext.com/files/js/js_7449009edb07b3f45cc4d536a9aa8a32.js, line 19: unreachable code after return statement
+1541800070075	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+console.error: "_refreshProcess of computed view cancelled"
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1695:11
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/local-transport.js:64:11
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1695, column: 11
+console.error: "Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null\nStack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1695:11\nsend/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/local-transport.js:64:11\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1695, column: 11"
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1541800079316	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.bolsadelisboa.com.pt/pt-pt/products/equities/PTALT0AE0002-XLIS/quotes
+1541800079471	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1541800080056	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541800080063	webdriver::server	DEBUG	-> POST /session/d3d51204-104f-4e46-92c6-a50cd9134c28/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue03d"}, {"type": "keyUp", "value": "\ue03d"}, {"type": "keyDown", "value": "\ue00a"}, {"type": "keyUp", "value": "\ue00a"}, {"type": "keyDown", "value": "K"}, {"type": "keyUp", "value": "K"}]}]}
+1541800080762	Marionette	TRACE	0 -> [0,4,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":0,"type":"pause"},{"duration":0,"type":"pause"},{"duratio ... e":""},{"type":"keyUp","value":""},{"type":"keyDown","value":"K"},{"type":"keyUp","value":"K"}],"id":"key","type":"key"}]}]
+1541800087296	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1541800087343	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541800087364	webdriver::server	DEBUG	-> POST /session/d3d51204-104f-4e46-92c6-a50cd9134c28/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "keyDown", "value": "\ue03d"}, {"type": "keyUp", "value": "\ue03d"}, {"type": "keyDown", "value": "\ue00a"}, {"type": "keyUp", "value": "\ue00a"}, {"type": "keyDown", "value": "K"}, {"type": "keyUp", "value": "K"}, {"type": "keyDown", "value": "d"}, {"type": "keyUp", "value": "d"}, {"type": "keyDown", "value": "o"}, {"type": "keyUp", "value": "o"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "u"}, {"type": "keyUp", "value": "u"}, {"type": "keyDown", "value": "m"}, {"type": "keyUp", "value": "m"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "n"}, {"type": "keyUp", "value": "n"}, {"type": "keyDown", "value": "t"}, {"type": "keyUp", "value": "t"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "q"}, {"type": "keyUp", "value": "q"}, {"type": "keyDown", "value": "u"}, {"type": "keyUp", "value": "u"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "r"}, {"type": "keyUp", "value": "r"}, {"type": "keyDown", "value": "y"}, {"type": "keyUp", "value": "y"}, {"type": "keyDown", "value": "S"}, {"type": "keyUp", "value": "S"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "t"}, {"type": "keyUp", "value": "t"}, {"type": "keyDown", "value": "o"}, {"type": "keyUp", "value": "o"}, {"type": "keyDown", "value": "r"}, {"type": "keyUp", "value": "r"}, {"type": "keyDown", "value": "A"}, {"type": "keyUp", "value": "A"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "("}, {"type": "keyUp", "value": "("}, {"type": "keyDown", "value": "'"}, {"type": "keyUp", "value": "'"}, {"type": "keyDown", "value": "a"}, {"type": "keyUp", "value": "a"}, {"type": "keyDown", "value": "#"}, {"type": "keyUp", "value": "#"}, {"type": "keyDown", "value": "p"}, {"type": "keyUp", "value": "p"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "C"}, {"type": "keyUp", "value": "C"}, {"type": "keyDown", "value": "o"}, {"type": "keyUp", "value": "o"}, {"type": "keyDown", "value": "n"}, {"type": "keyUp", "value": "n"}, {"type": "keyDown", "value": "t"}, {"type": "keyUp", "value": "t"}, {"type": "keyDown", "value": "a"}, {"type": "keyUp", "value": "a"}, {"type": "keyDown", "value": "i"}, {"type": "keyUp", "value": "i"}, {"type": "keyDown", "value": "n"}, {"type": "keyUp", "value": "n"}, {"type": "keyDown", "value": "e"}, {"type": "keyUp", "value": "e"}, {"type": "keyDown", "value": "r"}, {"type": "keyUp", "value": "r"}, {"type": "keyDown", "value": "_"}, {"type": "keyUp", "value": "_"}, {"type": "keyDown", "value": "d"}, {"type": "keyUp", "value": "d"}, {"type": "keyDown", "value": "a"}, {"type": "keyUp", "value": "a"}, {"type": "keyDown", "value": "'"}, {"type": "keyUp", "value": "'"}, {"type": "keyDown", "value": ")"}, {"type": "keyUp", "value": ")"}, {"type": "keyDown", "value": "["}, {"type": "keyUp", "value": "["}, {"type": "keyDown", "value": "0"}, {"type": "keyUp", "value": "0"}, {"type": "keyDown", "value": "]"}, {"type": "keyUp", "value": "]"}, {"type": "keyDown", "value": "."}, {"type": "keyUp", "value": "."}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "l"}, {"type": "keyUp", "value": "l"}, {"type": "keyDown", "value": "i"}, {"type": "keyUp", "value": "i"}, {"type": "keyDown", "value": "c"}, {"type": "keyUp", "value": "c"}, {"type": "keyDown", "value": "k"}, {"type": "keyUp", "value": "k"}, {"type": "keyDown", "value": "("}, {"type": "keyUp", "value": "("}, {"type": "keyDown", "value": ")"}, {"type": "keyUp", "value": ")"}]}]}
+1541800087392	Marionette	TRACE	0 -> [0,5,"WebDriver:PerformActions",{"actions":[{"actions":[{"duration":0,"type":"pause"},{"duration":0,"type":"pause"},{"duratio ... e":"("},{"type":"keyUp","value":"("},{"type":"keyDown","value":")"},{"type":"keyUp","value":")"}],"id":"key","type":"key"}]}]
+1541800090733	Marionette	TRACE	0 <- [1,5,null,{"value":null}]
+1541800090763	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1541800090770	webdriver::server	DEBUG	-> POST /session/d3d51204-104f-4e46-92c6-a50cd9134c28/element {"using": "css selector", "value": "[id=\"tablesNavigation_hi\"]"}
+1541800090779	Marionette	TRACE	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"tablesNavigation_hi\"]"}]
+1541800090805	Marionette	TRACE	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"16a8e87c-010c-6146-88da-2fff4ea7b7a4"}}]
+1541800090808	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"16a8e87c-010c-6146-88da-2fff4ea7b7a4"}}
+1541800090822	webdriver::server	DEBUG	-> POST /session/d3d51204-104f-4e46-92c6-a50cd9134c28/element/16a8e87c-010c-6146-88da-2fff4ea7b7a4/value {"text": "\ue007", "value": ["\ue007"], "id": "16a8e87c-010c-6146-88da-2fff4ea7b7a4"}
+1541800090825	Marionette	TRACE	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"16a8e87c-010c-6146-88da-2fff4ea7b7a4","text":"","value":[""]}]
+1541800090853	Marionette	TRACE	0 <- [1,7,{"error":"element not interactable","message":"Element <a id=\"tablesNavigation_hi\" class=\"sub-active\" href=\"#\"> is ... ch/</req<@chrome://marionette/content/listener.js:482:14\ndispatch/<@chrome://marionette/content/listener.js:477:15\n"},null]
+1541800090856	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"element not interactable","message":"Element <a id=\"tablesNavigation_hi\" class=\"sub-active\" href=\"#\"> is not reachable by keyboard","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178:5\nElementNotInteractableError@chrome://marionette/content/error.js:286:5\nwebdriverSendKeysToElement@chrome://marionette/content/interaction.js:566:11\ninteraction.sendKeysToElement@chrome://marionette/content/interaction.js:553:11\nsendKeysToElement@chrome://marionette/content/listener.js:1307:9\ndispatch/</req<@chrome://marionette/content/listener.js:482:14\ndispatch/<@chrome://marionette/content/listener.js:477:15\n"}}
+1541800091319	Marionette	DEBUG	Closed connection 0
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1541800640816	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1541800640816	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1541800640817	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1541800640818	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1541800640818	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1541800640819	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1541800640821	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1541800640824	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1541800640825	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1541800640826	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1541800640828	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1541800640829	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1541800640832	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1541800640832	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1541800640833	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1541800640834	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1541800640835	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1541800640835	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1541800640837	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1541800640838	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1541800640839	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1541800640839	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1541800640839	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1541800640840	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1541800640840	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1541800640841	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1541800640842	Marionette	INFO	Stopped listening on port 57212
+1541800640843	Marionette	DEBUG	Remote service is inactive
